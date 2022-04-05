@@ -47,7 +47,7 @@ The code stores the tar file on the user's Google Drive.
 When the user logs into Colab again, a third code fragment retrieves the tar file and unpacks it in the correct location. 
 This third step takes less than a minute and reduces the inconvenience of reinstalling software at the beginning of each Colab work session.
 
-This work will be presented at SciPy 2022 in mid July as abstract 222.
+This work will be presented at SciPy 2022 in mid July as abstract 222 and will be described in detail in a conference paper.
 
 Mooers, B.H.M and Acquah, F.A. (2022)  Amalgamated molecular visualization on Colab.
 
