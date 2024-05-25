@@ -64,7 +64,7 @@ This work was supported in part by the following grants:
 
 |Version      | Changes                                                                                                                                     | Date                 |
 |:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
-| Version 0.2 |   Added badges, funding, and update table.                                                                                                 | 2024 May 24         |
+| Version 0.0 |   Added badges, funding, and update table.                                                                                                 | 2024 May 24         |
 
 ## Sources of funding
 
