@@ -1,4 +1,8 @@
-# polyglotmolviz:  Amalgamated molecular visualization on Colab
+![Version](https://img.shields.io/static/v1?label=polyglotmolviz&message=0.0&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+# Amalgamated molecular visualization on Colab
 
 Code snippets to facilitate running several molecular graphics software packages in Colab notebooks.
 
@@ -25,7 +29,7 @@ The latter has become the /de facto/ computing platform in scientific computing 
 
 The Colab notebook provides access to generic scientific computing packages preinstalled on Colab. 
 This software includes widely used numerical computing packages like NumPy and pandas. 
-If the required software is already available on Colab, the user can import the packages or modules and start executing code blocks in the notebook. 
+If the required software is available on Colab, the user can import the packages or modules and execute code blocks in the notebook. 
 Unfortunately, molecular graphics packages are not part of this software collection.
 
 One solution to this issue is to install this software via Anaconda. 
@@ -33,7 +37,7 @@ However, Anaconda must be retrieved and installed in the correct location in Col
 These software installation steps are complex and take time if executed individually. 
 This complexity can discourage new users.
 
-To address this problem of adding molecular graphics software to Colab, we created code fragments that reduce these tasks to a single click of an icon by the user. 
+To address the problem of adding molecular graphics software to Colab, we created code fragments that reduce these tasks to a single user click of an icon. 
 We added these code fragments to snippet libraries for each molecular graphics package. 
 The new libraries are called /colabrdkitsnips/, /colabpy3dmolsnips/, and /colabnglviewsnips/. 
 In the case of PyMOL, we reformatted the published [[https://github.com/MooersLab/pymolsnips][pymolpysnips library]] for Colab and named it [[https://github.com/MooersLab/colabpymolpysnips][colabpymolpysnips]].
@@ -47,7 +51,7 @@ The code stores the tar file on the user's Google Drive.
 When the user logs into Colab again, a third code fragment retrieves the tar file and unpacks it in the correct location. 
 This third step takes less than a minute and reduces the inconvenience of reinstalling software at the beginning of each Colab work session.
 
-This work will be presented at SciPy 2022 in mid July as abstract 222 and will be described in detail in a conference paper.
+This work will be presented at SciPy 2022 in mid-July as abstract 222 and described in detail in a conference paper.
 
 Mooers, B.H.M and Acquah, F.A. (2022)  Amalgamated molecular visualization on Colab.
 
@@ -56,6 +60,18 @@ This work was supported in part by the following grants:
 - NIH: R01CA242845, R01AI088011, P20GM103640, P30CA225520, 3P30AG050911-07S1 
 - Oklahoma Center for the Advancement of Science and Technology: HR20-002.
 
+## Update history
+
+|Version      | Changes                                                                                                                                     | Date                 |
+|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+| Version 0.2 |   Added badges, funding, and update table.                                                                                                 | 2024 May 24         |
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
 
 
 
